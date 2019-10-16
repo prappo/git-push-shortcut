@@ -1,6 +1,6 @@
 const { exec } = require('child_process');
 var date = new Date();
-var command = 'git add . && git commit -m "'+date+'" && git push -u origin master';
+var command = 'git add . && git commit -m "Pushed at : '+date+'" && git push -u origin master';
 // console.log(command);
 exec(command, (err, stdout, stderr) => {
     if (err) {
