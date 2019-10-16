@@ -1,7 +1,7 @@
 const { exec } = require('child_process');
 var date = new Date();
 var command = 'git add . && git commit -m "'+date+'" && git push -u origin master';
-console.log(command);
+// console.log(command);
 exec(command, (err, stdout, stderr) => {
     if (err) {
         // node couldn't execute the command
