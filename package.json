@@ -1,6 +1,6 @@
 {
   "name": "git-push-shortcut",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shortcut command for git push",
   "main": "index.js",
   "scripts": {
