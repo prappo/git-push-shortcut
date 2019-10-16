@@ -1,7 +1,7 @@
 {
-  "name": "git-push-sortcut",
+  "name": "git-push-shortcut",
   "version": "1.0.0",
-  "description": "Short cut command for git push",
+  "description": "Shortcut command for git push",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
