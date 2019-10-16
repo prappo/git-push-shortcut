@@ -9,6 +9,9 @@
   "keywords": [
 
   ],
+  "bin": {
+    "push": "index.js"
+  },
   "author": "Prappo Prince",
   "license": "ISC"
 }

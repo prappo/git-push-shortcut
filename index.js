@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { exec } = require('child_process');
 var date = new Date();
 var command = 'git add . && git commit -m "Pushed at : '+date+'" && git push -u origin master';
